@@ -1,3 +1,5 @@
+NOTE: in 99% of cases all you need to do is install the plugin and let it do its thing, it automatically converts everyone who joins.
+
 # LsEnderChestConverter
 
 Convert vanilla Minecraft Ender Chest contents into **LsEnderChest** storage.
