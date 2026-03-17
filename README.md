@@ -10,9 +10,9 @@ LsEnderChestConverter is a companion plugin for **LsEnderChest** that seamlessly
 
 * **Automatic conversion on join**
 
-  * Players’ vanilla Ender Chest contents are converted the moment they join
+  * Players vanilla Ender Chest contents are converted the moment they join
   * Runs only once per player
-  * Safe and seamless — no commands needed
+  * Safe and seamless. no commands needed
 
 ---
 
