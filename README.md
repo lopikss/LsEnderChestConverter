@@ -1,28 +1,41 @@
-NOTE: in 99% of cases all you need to do is install the plugin and let it do its thing, it automatically converts everyone who joins.
+Got you — yeah your current description makes it feel like a **manual tool**, while the real power is the **automatic conversion**.
+
+Here’s a rewritten version that puts the **on-join system front and center** and makes the commands clearly optional:
+
+---
 
 # LsEnderChestConverter
 
-Convert vanilla Minecraft Ender Chest contents into **LsEnderChest** storage.
+Automatically convert vanilla Ender Chest contents into **LsEnderChest** storage.
 
-LsEnderChestConverter is a companion plugin for [LsEnderChest](https://modrinth.com/plugin/lsenderchest) that helps migrate players from the vanilla Ender Chest system to the custom **LsEnderChest** storage system.
+LsEnderChestConverter is a companion plugin for **LsEnderChest** that seamlessly migrates players from the vanilla Ender Chest system to the custom storage system — **without requiring manual action**.
+
+---
+
+## ⭐ Main Feature
+
+* **Automatic conversion on join**
+
+  * Players’ vanilla Ender Chest contents are converted the moment they join
+  * Runs only once per player
+  * Safe and seamless — no commands needed
 
 ---
 
 ## Features
 
-- Convert a single player's vanilla Ender Chest
-- Convert all online players
-- Automatically convert players on join
-- Stores converted player UUIDs to prevent duplicate conversions
-- Lightweight and simple configuration
+* Automatic Ender Chest conversion when players join
+* One-time conversion per player (UUID-based tracking)
+* Optional manual conversion commands
+* Lightweight and easy to configure
 
 ---
 
 ## Requirements
 
-- **Paper / Spigot 1.21+**
-- **Java 21**
-- **LsEnderChest** installed
+* **Paper / Spigot 1.21+**
+* **Java 21**
+* **LsEnderChest** installed
 
 ---
 
@@ -31,32 +44,39 @@ LsEnderChestConverter is a companion plugin for [LsEnderChest](https://modrinth.
 1. Install **LsEnderChest**
 2. Place **LsEnderChestConverter** into your `plugins` folder
 3. Start the server
-4. Configure the plugin if needed
-5. Use the command below to begin converting Ender Chests
+4. Players will automatically be converted on join
 
 ---
 
-## Commands
+## Commands (Optional)
 
-| Command | Description |
-|--------|-------------|
-| `/lsecconvert <player>` | Convert one online player's vanilla Ender Chest |
-| `/lsecconvert all` | Convert all online players |
+| Command                 | Description                         |
+| ----------------------- | ----------------------------------- |
+| `/lsecconvert <player>` | Manually convert one online player  |
+| `/lsecconvert all`      | Manually convert all online players |
 
 ---
 
 ## Permissions
 
-| Permission | Description | Default |
-|-----------|-------------|---------|
-| `lsec.convert` | Allows use of converter commands | `op` |
+| Permission     | Description                      | Default |
+| -------------- | -------------------------------- | ------- |
+| `lsec.convert` | Allows use of converter commands | `op`    |
 
 ---
 
 ## Configuration
 
 ```yml
-# convert-on-first-join, means first join After the plugin is installed not first time joining the server ever.
-convert-on-first-join: true
+# Automatically convert players when they join
+convert-on-join: true
 
 debug: false
+```
+
+---
+
+If you want, I can make an even stronger version that:
+
+* sells it like a **“zero-downtime migration plugin”** (better for Modrinth downloads)
+* or add a **warning/backup note** to make it look more professional/trustworthy.
