@@ -1,9 +1,3 @@
-Got you — yeah your current description makes it feel like a **manual tool**, while the real power is the **automatic conversion**.
-
-Here’s a rewritten version that puts the **on-join system front and center** and makes the commands clearly optional:
-
----
-
 # LsEnderChestConverter
 
 Automatically convert vanilla Ender Chest contents into **LsEnderChest** storage.
@@ -73,10 +67,3 @@ convert-on-join: true
 
 debug: false
 ```
-
----
-
-If you want, I can make an even stronger version that:
-
-* sells it like a **“zero-downtime migration plugin”** (better for Modrinth downloads)
-* or add a **warning/backup note** to make it look more professional/trustworthy.
