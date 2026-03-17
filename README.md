@@ -2,7 +2,7 @@
 
 Convert vanilla Minecraft Ender Chest contents into **LsEnderChest** storage.
 
-LsEnderChestConverter is a companion plugin for [LsEnderChest](modrinth.com/plugin/lsenderchest) that helps migrate players from the vanilla Ender Chest system to the custom **LsEnderChest** storage system.
+LsEnderChestConverter is a companion plugin for [LsEnderChest](https://modrinth.com/plugin/lsenderchest) that helps migrate players from the vanilla Ender Chest system to the custom **LsEnderChest** storage system.
 
 ---
 
