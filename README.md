@@ -54,6 +54,7 @@ LsEnderChestConverter is a companion plugin for [LsEnderChest](https://modrinth.
 ## Configuration
 
 ```yml
+# ocnvert-on-first-join, means first join After the plugin is installed not first time joining the server ever.
 convert-on-first-join: true
 
 debug: false
